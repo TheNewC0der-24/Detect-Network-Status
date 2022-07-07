@@ -1,0 +1,28 @@
+.online {
+    color: #009900;
+}
+
+.offline {
+    color: #990000;
+}
+
+@media (max-width: 991.5px) and (min-width: 768px) {
+    .card {
+        margin-top: 0 !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .main {
+        flex-direction: column !important;
+    }
+
+    .heading {
+        text-align: center;
+    }
+
+    .support {
+        justify-content: center;
+        margin: auto;
+    }
+}
