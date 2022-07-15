@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Detect-Network-Status/static/css/main.4beac970.css",
+    "main.js": "/Detect-Network-Status/static/js/main.b0fb4bb2.js",
+    "static/media/Connected.svg": "/Detect-Network-Status/static/media/Connected.0fbdfc9da1b72ceab310c95c64eff20c.svg",
+    "index.html": "/Detect-Network-Status/index.html",
+    "main.4beac970.css.map": "/Detect-Network-Status/static/css/main.4beac970.css.map",
+    "main.b0fb4bb2.js.map": "/Detect-Network-Status/static/js/main.b0fb4bb2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4beac970.css",
+    "static/js/main.b0fb4bb2.js"
+  ]
+}
