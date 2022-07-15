@@ -17,17 +17,17 @@ function App() {
           <img className='img-fluid ms-2' src="https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-1.svg" height="50" width="150" alt="Bhavya Khurana" ></img>
         </a>
       </div>
-      <div className="container mt-4">
+      <div className="container">
         <div className="row">
-          <div className="col-md-6">
-            <img className='img-fluid' src={Connected} alt="Connection Status" />
+          <div className="col-md-7 m-auto">
+            <img className='img-fluid img' src={Connected} alt="Connection Status" />
           </div>
-          <div className="col-md-6">
-            <div className="card my-5" style={{ backgroundColor: '#455a64' }}>
+          <div className="col-md-5 m-auto">
+            <div className="card my-5 bg-light">
               <span class="position-absolute top-0 start-50 translate-middle badge rounded-pill" style={{ backgroundColor: '#455a64' }}>
                 Live Update 🔥
               </span>
-              <div className="card-body mt-2">
+              <div className="card-body">
                 <div className="list-group" style={{ cursor: "pointer" }}>
                   <h5 className="list-group-item list-group-item-action">Connection Status : <span className={`${isOnline ? 'online' : 'offline'} fw-bold`}>
                     {isOnline ? (
