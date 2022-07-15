@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+<h1 align='center'>Detect Network Status</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About 
+Monitor and test Internet connectivity. Detect when Internet doesn't work over operating Wi-Fi or Ethernet.
 
-## Available Scripts
+## Feature
+> Use navigator's connection property and react to change in our connection to return an updated status !
 
-In the project directory, you can run:
+* Detect Network status.
+* Detect Latency i.e., `Round Trip Time`.
+* Detect Down Link means `download speed`.
+* Detect Effective Bandwidth.
 
-### `npm start`
+## Built With
+|React.JS|Bootstrap|
+|---|---|
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Hosted On
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9abfcf62-b5da-4bf2-8ab9-195d4a7a7000/deploy-status)](https://app.netlify.com/sites/detect-network-status/deploys)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This network detector is hosted on [Netlify](https://www.netlify.com/), hence accessible anywhere.
 
-### `npm test`
+## Dependency Installed
+```
+npm i react-icons --save
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Preview
+![preview](https://github.com/TheNewC0der-24/Detect-Network-Status/blob/master/Preview/Preview.png)
 
-### `npm run build`
+## Link
+```
+https://detect-network-status.netlify.app/
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+--- 
+<h3 align='center'>Hope you like this application :)</h3>
+<h4 align='center'>Show some ❤️ by giving ⭐ to this repository !!</h4>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
