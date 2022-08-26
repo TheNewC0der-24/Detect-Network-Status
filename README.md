@@ -16,9 +16,7 @@ Monitor and test Internet connectivity. Detect when Internet doesn't work over o
 |---|---|
 
 ## Hosted On
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9abfcf62-b5da-4bf2-8ab9-195d4a7a7000/deploy-status)](https://app.netlify.com/sites/detect-network-status/deploys)
-
-This network detector is hosted on [Netlify](https://www.netlify.com/), hence accessible anywhere.
+This network detector is hosted on gh-pages, hence accessible anywhere.
 
 ## Dependency Installed
 ```
