@@ -28,7 +28,7 @@ npm i react-icons --save
 
 ## Link
 ```
-https://detect-network-status.netlify.app/
+https://thenewc0der-24.github.io/Detect-Network-Status/
 ```
 
 --- 
