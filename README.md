@@ -28,7 +28,7 @@ npm i react-icons --save
 
 ## Link
 ```
-https://thenewc0der-24.github.io/Detect-Network-Status/
+https://detect-network-status.vercel.app/
 ```
 
 --- 
