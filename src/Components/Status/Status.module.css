@@ -1,0 +1,20 @@
+.badge {
+    background-color: #3f3d56;
+    border-radius: 0;
+}
+
+.text {
+    color: #6c63ff;
+    font-weight: bold;
+}
+
+.alert {
+    width: max-content;
+    margin: auto;
+}
+
+@media (max-width: 767.5px) {
+    .Notification {
+        margin-bottom: 0 !important;
+    }
+}

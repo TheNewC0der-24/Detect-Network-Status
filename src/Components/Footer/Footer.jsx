@@ -1,4 +1,6 @@
 import React from 'react';
+import styles from './Footer.module.css';
+
 import { FaFacebookF, FaTwitter, FaGoogle, FaInstagram, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
 const Footer = () => {
@@ -11,11 +13,12 @@ const Footer = () => {
                         outline: 0 !important;
                         box-shadow: none !important;
                         border: none !important;
+                        border-radius: 0 !important;
                     }
                 `}
             </style>
 
-            <footer className="text-center text-white" style={{ backgroundColor: "rgb(199, 199, 199)" }}>
+            <footer className="text-center text-white mt-5" style={{ backgroundColor: "rgb(199, 199, 199)" }}>
                 <div className="container p-4">
                     <h4 className='text-dark'>Connect with me on My Social Accounts</h4>
                     <section className="mb-4">
@@ -86,8 +89,11 @@ const Footer = () => {
                     </section>
                 </div>
 
-                <div className="text-center p-3" style={{ backgroundColor: '#455a64' }}>
-                    © 2022 Copyright - <span className='badge text-bg-dark'>Bhavya Khurana</span>
+                <div className="text-center p-3 fixed-bottom" style={{ backgroundColor: '#455a64' }}>
+                    © 2022 Copyright
+                    <div className={`${styles.credits} mt-3`}>
+                        Created by <span className='bg-white p-2'>Bhavya Khurana</span>
+                    </div>
                 </div>
             </footer>
         </>
