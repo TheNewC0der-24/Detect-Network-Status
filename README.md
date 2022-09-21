@@ -21,6 +21,7 @@ This network detector is hosted on gh-pages, hence accessible anywhere.
 ## Dependency Installed
 ```
 npm i react-icons --save
+npm i react-router-dom
 ```
 
 ## Preview
