@@ -16,7 +16,7 @@ Monitor and test Internet connectivity. Detect when Internet doesn't work over o
 |---|---|
 
 ## Hosted On
-This network detector is hosted on gh-pages, hence accessible anywhere.
+This network detector is hosted on vercel, hence accessible anywhere.
 
 ## Dependency Installed
 ```
